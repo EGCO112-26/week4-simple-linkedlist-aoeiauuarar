@@ -8,6 +8,7 @@ int main(int argc, const char * argv[]) {
     nodePtr head,temp;
     head=(nodePtr)malloc(sizeof(node));
     temp=head;
+    if(argc<2) return 0;
     n=(argc-1)/2;
 
     for(i=0;i<n-1;i++){
